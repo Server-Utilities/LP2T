@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "tv.quaint.mixin.ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
