@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lp2t",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/lp2t/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -23,14 +23,15 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "lp2t.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
     "minecraft": "1.18.x",
-    "java": ">=17"
+    "java": ">=17",
+    "luckperms": ">=5.4"
   },
   "suggests": {
     "another-mod": "*"
